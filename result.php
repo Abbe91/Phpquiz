@@ -18,8 +18,8 @@
             
             $answer1 = $_POST['question-1-answers'];
             $answer2 = $_POST['question-2-answers'];
-            // $answer3 = $_POST['question-3-answers'];
-            // $answer4 = $_POST['question-4-answers'];
+            $answer3 = $_POST['question-3-answers'];
+            $answer4 = $_POST['question-4-answers'];
 
      
         
@@ -45,25 +45,25 @@
             echo  "Fell </br>" ; 
             }
             
-            // if ($answer3 == "B")
-            // {
-            // $totalCorrect++;
-            // echo "PHP is a.... </br>";
-            // echo " Rätt </br>";
-            // }else{
-            // echo "PHP is a.... </br>";
-            // echo  "Fell </br>" ; 
-            // }
+            if ($answer3 == "B")
+            {
+            $totalCorrect++;
+            echo "PHP is a.... </br>";
+            echo " Rätt </br>";
+            }else{
+            echo "PHP is a.... </br>";
+            echo  "Fell </br>" ; 
+            }
            
-            // if ($answer4 == "B")
-            // { 
-            // $totalCorrect++; 
-            // echo "Vad är en cookie ?</br>";
-            // echo  " Rätt </br>";
-            // }else{
-            // echo "Vad är en cookie ?</br>";
-            // echo  "Fell </br>" ; 
-            // }
+            if ($answer4 == "B")
+            { 
+            $totalCorrect++; 
+            echo "Vad är en cookie ?</br>";
+            echo  " Rätt </br>";
+            }else{
+            echo "Vad är en cookie ?</br>";
+            echo  "Fell </br>" ; 
+            }
             
            
             

@@ -68,7 +68,7 @@
                 
                 </li>
                 
-                <!-- <li class= "theQu">
+                <li class= "theQu">
                     <h3>PHP is a....</h3>
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
@@ -116,7 +116,7 @@
                         <label for="question-4-answers-D">D) it is some thing good</label>
                     </div>
                 
-                </li> -->
+                </li>
             
             </ol>
             
