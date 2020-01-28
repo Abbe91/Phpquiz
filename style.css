@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color:wheat;
      font: 14px Georgia, serif; 
     }
  
@@ -36,4 +36,19 @@ h1  {
  
 #results {
     font: 44px Georgia, Serif;
+}
+.theQu{
+  
+   margin: 5px;
+   text-align: center;
+   transform-style: preserve-3d;
+   transition: transform .2s;
+   vertical-align: middle;
+   background-color: rgb(177, 147, 91);
+   opacity: 0.7;
+   
+}
+.theQu:active{
+   transform :scale(.97);
+   transition: transform .2s;
 }

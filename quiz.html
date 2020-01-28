@@ -1,8 +1,13 @@
 <head>
-	<meta charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	
-	<title>PHP QUIZ | Webdevtrick.com</title>
+	<title>PHP QUIZ</title>
 	
+    <script defer src="javascript.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
  
@@ -15,11 +20,8 @@
 	<form action="result.php" method="post" id="quiz">
 		
             <ol>
-            
-                <li>
-                
+                <li class= "theQu">           
                     <h3>Hur länge finns något i $_GLOBALS? </h3>
-                    
                     <div>
                         <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" />
                         <label for="question-1-answers-A">A) För 1 timme </label>
@@ -42,10 +44,8 @@
                 
                 </li>
                 
-                <li>
-                
+                <li class= "theQu">
                     <h3> Vad är $_POST och $_GET ? </h3>
-                    
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" />
                         <label for="question-2-answers-A">A) Det e bara a spel</label>
@@ -68,10 +68,8 @@
                 
                 </li>
                 
-                <li>
-                
+                <!-- <li class= "theQu">
                     <h3>PHP is a....</h3>
-                    
                     <div>
                         <input type="radio" name="question-3-answers" id="question-3-answers-A" value="A" />
                         <label for="question-3-answers-A">A) Server Side Script</label>
@@ -96,10 +94,8 @@
                 
              
                 
-                <li>
-                
+                <li class= "theQu">
                     <h3>Vad är en cookie ? </h3>
-                    
                     <div>
                         <input type="radio" name="question-4-answers" id="question-4-answers-A" value="A" />
                         <label for="question-4-answers-A">A) Programvara </label>
@@ -120,14 +116,14 @@
                         <label for="question-4-answers-D">D) it is some thing good</label>
                     </div>
                 
-                </li>
+                </li> -->
             
             </ol>
             
             <input type="submit" value="Submit" class="submitbtn" />
 		
 		</form>
-	
+       
 	</div>
  
  
