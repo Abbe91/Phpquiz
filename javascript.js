@@ -37,3 +37,10 @@ let myQuestions = [
     }, 
 ]
 
+function initSite(){
+for(var i = 0; i< myQuestions.length; i++){
+ console.log(myQuestions)
+
+    }
+}
+
